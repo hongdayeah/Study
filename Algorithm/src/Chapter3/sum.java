@@ -21,6 +21,7 @@ public class sum {
 		
 		System.out.println(sum);
 		
+		//문제는 간단하지만 내가 Scanner 객체 사용에 매우 익숙하지 않기 때문에 풀이의 도움을 받았다.
 
 	}
 
