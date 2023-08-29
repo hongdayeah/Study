@@ -1,6 +1,6 @@
 package programmers;
 
-public class Sum {
+public class Q1 {
 
 	public static void main(String[] args) {
 		//LEVEL 1. 자릿수 더하기
