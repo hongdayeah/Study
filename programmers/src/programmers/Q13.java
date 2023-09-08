@@ -19,10 +19,10 @@ public class Q13 {
 		int sum = 0; //누적 합 시킬 변수
 		
 		for(int i=0; i<absolutes.length; i++) {
-			if(signs[i] == true) {
-				sum += absolutes[i];
-			}else {
-				sum -= absolutes[i];
+			if(signs[i] == true) { //양수로 더해야 할 때
+				sum += absolutes[i]; //그냥 더하고
+			}else { //음수면
+				sum -= absolutes[i]; //그만큼 빼주어야 한다
 			}
 		}//for() end
 		
